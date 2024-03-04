@@ -53,3 +53,23 @@
     text-decoration: none;
     margin: 40px;
 }
+
+.title-section h2 {
+    font-family: var(--default-font);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.container h1 {
+    font-family: var(--titulos-font);
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.container p {
+    font-family: var(--default-font);
+    font-weight: 400;
+    font-size: 16px;
+}
