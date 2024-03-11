@@ -25,7 +25,7 @@
 .hero{
     background-color: var(--primary-color);
     text-align: center;
-    padding: 80px 40px;
+    padding: 80px 0px;
 }
 
 .hero p {
@@ -88,29 +88,9 @@
 .container a {
     margin: 10px 5px;
 }
-/* @media (max-width: 920px) {
-    .hero{
-        background-color: var(--primary-color);
-        text-align: center;
-        padding: 20px 20px;
-    }
-    .hero h1{
-        font-family: var(--titulos-font);
-        font-size: 84px;
-        font-weight: 700;
-        margin: 0;
-    }
-    .title-section h2 {
-        font-family: var(--default-font);
-        font-weight: 400;
-        font-size: 18px;
-        text-align: center;
-        padding: 40px 0;
-    }
-    .container h1 {
-        font-family: var(--titulos-font);
-        font-weight: 700;
-        font-size: 48px;
+@media (max-width: 920px) {
+    .container img {
+        display: none;
     }
 
-} */
+}
